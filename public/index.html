@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>business cards</title>
+    <link rel="stylesheet" href="https://use.typekit.net/usq5jdr.css">
+    <style>
+        * {
+            margin: 0;
+            font-family: proxima-nova, sans-serif;
+            font-weight: 700;
+        }
+
+        .max {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            font-size: 300%;
+            text-align: center;
+        }
+
+        .s1 {
+            height: 100vh;
+            background-image: linear-gradient(#2c5e92 0%, #552f6d 80%);
+            color: #fff;
+            padding: 5%;
+            box-sizing: border-box;
+        }
+
+        .s2 {
+            height: 80vh;
+            color: #1877f2;
+            padding: 5%;
+            box-sizing: border-box;
+        }
+
+        footer {
+            height: 20vh;
+            padding: 2% 5%;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #000;
+            font-size: 120%;
+            font-weight: 100;
+        }
+
+        .footer-name {
+            font-size: 120%;
+            font-weight: 700;
+            color: #1877f2;
+        }
+
+        .footer-address {
+            margin-top: 2%;
+            font-weight: 100;
+        }
+
+        .footer-legal {
+            font-weight: 100;
+        }
+
+        .buttons button {
+            border: 2px solid #fff;
+            color: #fff;
+            background-color: transparent;
+            border-radius: 24px;
+            padding: .5%;
+            width: 25%;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20%;
+            font-family: proxima-nova, sans-serif;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        .text {
+            font-weight: 100;
+            font-size: 50%;
+            max-width: 70%;
+            margin: 5% auto;
+            color: #fff;
+        }
+
+        .features {
+            background-color: #fff;
+            margin: 5%;
+            border-radius: 24px;
+            border: none;
+            padding: 2% 5%;
+            height: max-content;
+            color: #000;
+            text-align: left;
+            font-size: 40%;
+        }
+
+        .feature-item {
+            color: #1877f2;
+            margin-top: 2%;
+            display: flex;
+        }
+
+        .feature-item .feature-item-text {
+            margin-left: 2%;
+        }
+
+        svg .checkmark {
+            fill: #1ed760;
+        }
+
+        .feature-list {
+            margin: 5% 0%;
+        }
+
+        .action-btn {
+            border-radius: 24px;
+            border: 3px solid #1877f2;
+            background-color: transparent;
+            font-family: proxima-nova, sans-serif;
+            font-weight: 700;
+            font-size: 90%;
+            text-transform: uppercase;
+            margin-bottom: 5%;
+            color: #1877f2;
+            padding: .4% 2%;
+            text-align: left;
+            width: 40%;
+            margin-left: 60%;
+            display: flex;
+        }
+
+        .action-btn:hover {
+            transition: background-color .5s;
+            transition: color .5s;
+            background-color: #1877f2;
+            color: #fff;
+        }
+
+        .action-btn:hover > .btn-icon {
+            transition: fill .5s;
+            fill: #fff;
+        }
+
+        .btn-icon {
+            fill: #1877f2;
+            flex: 0 0 9.5%;
+            margin-left: 10%;
+        }
+
+        .btn-text {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section class="s1">
+        <div class="max">
+            <div class="header">
+                Design neat business cards
+                <div class="text">
+                    Modern businesses need modern business cards. Create your personalized card in just a few seconds.
+                </div>
+                <div class="features">
+                    <h1>Features 🎈</h1>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" fill="#1ed760"/></svg>
+                            <div class="feature-item-text">personalized identity</div>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" fill="#1ed760"/></svg>
+                            <div class="feature-item-text">fast delivery</div>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" fill="#1ed760"/></svg>
+                            <div class="feature-item-text">download print-ready version</div>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" fill="#1ed760"/></svg>
+                            <div class="feature-item-text">fair pricing</div>
+                        </div>
+                    </div>
+                    <button class="action-btn" onClick="window.location.href='/designer'">
+                        <div class="btn-text">start now</div>
+                        <div class="btn-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve"><g><g><path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136    c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002    v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864    c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872    l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z"/></g></g></svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="max">
+            <div class="footer-name">Recomny</div>
+            <div class="footer-address">mitterdorfer.moritz@gmail.com</div>
+            <div class="footer-legal">&copy; recomny.com 2021</div>
+        </div>
+    </footer>
+</body>
+</html>
